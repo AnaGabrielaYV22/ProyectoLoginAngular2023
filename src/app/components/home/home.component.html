@@ -1,0 +1,74 @@
+<div class="bg-gray-900  shadow-2 flex align-items-center justify-content-between relative lg:static border-bottom-1 border-gray-800"
+    style="min-height: 84px;">
+    <a pripple="" pstyleclass="@next" enterclass="hidden" leavetoclass="hidden"
+        class="p-element p-ripple cursor-pointer block lg:hidden text-gray-400"><i class="pi pi-bars text-4xl"></i><span
+            class="p-ink"></span></a>
+    <div
+        class="align-items-center flex-grow-1 justify-content-between hidden lg:flex absolute lg:static w-full bg-gray-900 left-0 top-100 z-1 shadow-2 lg:shadow-none border-1 lg:border-none border-gray-800">
+        <ul class="list-none p-0 m-0 flex lg:align-items-center select-none flex-column lg:flex-row">
+            <li><a pripple=""
+                    class="p-ripple p-element flex px-6 p-3 lg:px-3 lg:py-2 align-items-center text-gray-400 hover:text-white hover:bg-gray-800 font-medium border-round cursor-pointer transition-colors transition-duration-150"><span>Home</span><span class="p-ink"></span></a></li>
+            <li><a pripple="" pstyleclass="@next" enterclass="hidden" enteractiveclass="scalein" leavetoclass="hidden"
+                    leaveactiveclass="fadeout"
+                    class="p-element p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center text-gray-400 hover:text-white hover:bg-gray-800 font-medium border-round cursor-pointer transition-colors transition-duration-150"><span>Customers</span><span class="p-ink"></span></a>
+             
+            </li>
+            <li><a pripple=""
+                    class="p-ripple p-element flex px-6 p-3 lg:px-3 lg:py-2 align-items-center text-gray-400 hover:text-white hover:bg-gray-800 font-medium border-round cursor-pointer transition-colors transition-duration-150"><span>Calendar</span><span class="p-ink"></span></a></li>
+            <li><a pripple=""
+                    class="p-ripple p-element flex px-6 p-3 lg:px-3 lg:py-2 align-items-center text-gray-400 hover:text-white hover:bg-gray-800 font-medium border-round cursor-pointer transition-colors transition-duration-150"><span>Stats</span><span class="p-ink"></span></a></li>
+        </ul>
+        <ul class="list-none p-0 m-0 flex lg:align-items-center select-none flex-column ">
+            <button pButton pRipple (click)="logout()" label="Cerrar Sesión"  class="font-bold p-button-raised p-button-rounded white-space-nowrap button-cerrar"></button>
+        </ul>
+    </div>
+</div>
+
+<div class="surface-section">
+    <div class="font-medium text-3xl text-900 mb-3">Lista de Clientes!!</div>
+    <div class="text-500 mb-5">Morbi tristique blandit turpis. In viverra ligula id nulla hendrerit rutrum.</div>
+    <ul class="list-none p-0 m-0">
+        <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
+            <div class="text-500 w-6 md:w-2 font-medium">Title</div>
+            <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">Heat</div>
+            <div class="w-6 md:w-2 flex justify-content-end">
+                <button pButton pRipple label="Editar" icon="pi pi-pencil" class="p-button-text"></button>
+                <button pButton pRipple label="Eliminar" icon="pi pi-pencil" class="p-button-text"></button>
+            </div>
+        </li>
+        <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
+            <div class="text-500 w-6 md:w-2 font-medium">Genre</div>
+            <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">
+                <p-chip label="Crime" class="mr-2"></p-chip>
+                <p-chip label="Drama" class="mr-2"></p-chip>
+                <p-chip label="Thriller"></p-chip>
+            </div>
+            <div class="w-6 md:w-2 flex justify-content-end">
+                <button pButton pRipple label="Edit" icon="pi pi-pencil" class="p-button-text"></button>
+            </div>
+        </li>
+        <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
+            <div class="text-500 w-6 md:w-2 font-medium">Director</div>
+            <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">Michael Mann</div>
+            <div class="w-6 md:w-2 flex justify-content-end">
+                <button pButton pRipple label="Edit" icon="pi pi-pencil" class="p-button-text"></button>
+            </div>
+        </li>
+        <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
+            <div class="text-500 w-6 md:w-2 font-medium">Actors</div>
+            <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">Robert De Niro, Al Pacino</div>
+            <div class="w-6 md:w-2 flex justify-content-end">
+                <button pButton pRipple label="Edit" icon="pi pi-pencil" class="p-button-text"></button>
+            </div>
+        </li>
+        <li class="flex align-items-center py-3 px-2 border-top-1 border-bottom-1 surface-border flex-wrap">
+            <div class="text-500 w-6 md:w-2 font-medium">Plot</div>
+            <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1 line-height-3">
+                A group of professional bank robbers start to feel the heat from police
+                when they unknowingly leave a clue at their latest heist.</div>
+            <div class="w-6 md:w-2 flex justify-content-end">
+                <button pButton pRipple label="Edit" icon="pi pi-pencil" class="p-button-text"></button>
+            </div>
+        </li>
+    </ul>
+</div>
